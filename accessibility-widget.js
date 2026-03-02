@@ -6,7 +6,7 @@
      ACC ACCESSIBILITY WIDGET  |  acclogo embedded
   ═══════════════════════════════════════════════════════ */
 
-  const ACC_LOGO = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMWExZDJlIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzBmMTExNyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYWNjZW50IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzRmOGVmNyIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzOGQ5YTkiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDwhLS0gQmFja2dyb3VuZCByb3VuZGVkIHNxdWFyZSAtLT4KICA8cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHJ4PSIxNCIgZmlsbD0idXJsKCNiZykiLz4KICA8IS0tIEJvcmRlciAtLT4KICA8cmVjdCB3aWR0aD0iNjIiIGhlaWdodD0iNjIiIHg9IjEiIHk9IjEiIHJ4PSIxMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMmEyZDNlIiBzdHJva2Utd2lkdGg9IjEuNSIvPgogIDwhLS0gUGVyc29uIGZpZ3VyZSAtIGhlYWQgLS0+CiAgPGNpcmNsZSBjeD0iMzIiIGN5PSIxNCIgcj0iNSIgZmlsbD0idXJsKCNhY2NlbnQpIi8+CiAgPCEtLSBQZXJzb24gZmlndXJlIC0gYXJtcyBvdXRzdHJldGNoZWQgKHVuaXZlcnNhbCBhY2Nlc3NpYmlsaXR5IHN5bWJvbCkgLS0+CiAgPHBhdGggZD0iTTMyIDIwIEwzMiAzOCIgc3Ryb2tlPSJ1cmwoI2FjY2VudCkiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPCEtLSBBcm1zIC0tPgogIDxwYXRoIGQ9Ik0xNCAyNiBMMzIgMjIgTDUwIDI2IiBzdHJva2U9InVybCgjYWNjZW50KSIgc3Ryb2tlLXdpZHRoPSI0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGZpbGw9Im5vbmUiLz4KICA8IS0tIExlZ3MgLS0+CiAgPHBhdGggZD0iTTMyIDM4IEwyMiA1MiIgc3Ryb2tlPSJ1cmwoI2FjY2VudCkiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CiAgPHBhdGggZD0iTTMyIDM4IEw0MiA1MiIgc3Ryb2tlPSJ1cmwoI2FjY2VudCkiIHN0cm9rZS13aWR0aD0iNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPg==';
+  const ACC_LOGO = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1117'/%3E%3Crect width='62' height='62' x='1' y='1' rx='13' fill='none' stroke='%232a2d3e' stroke-width='1.5'/%3E%3Ccircle cx='32' cy='14' r='5.5' fill='%234f8ef7'/%3E%3Cpath d='M32 21 L32 39' stroke='%234f8ef7' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M13 27 L32 23 L51 27' stroke='%2338d9a9' stroke-width='4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Cpath d='M32 39 L22 53' stroke='%2338d9a9' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M32 39 L42 53' stroke='%2338d9a9' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E";
 
   // ── Audit history stored in memory
   const auditHistory = [];
@@ -79,10 +79,9 @@
     #acc-panel * { box-sizing: border-box; margin: 0; padding: 0; }
 
     /* ── Wix iframe mode: absolute so panel isn't clipped by iframe box ── */
-    body.acc-in-iframe { height: 80px; overflow: hidden; }
-    body.acc-in-iframe #acc-toggle { position: absolute; bottom: 10px; right: 10px; }
-    body.acc-in-iframe #acc-panel  { position: absolute; bottom: 80px; right: 10px; max-height: 75vh; }
-    body.acc-in-iframe.acc-expanded { height: 100vh; overflow: hidden; }
+    body.acc-in-iframe { overflow: hidden; }
+    body.acc-in-iframe #acc-toggle { position: absolute !important; bottom: 10px !important; right: 10px !important; }
+    body.acc-in-iframe #acc-panel  { position: absolute !important; top: 0 !important; bottom: auto !important; right: 10px !important; max-height: calc(100% - 80px) !important; width: calc(100% - 20px) !important; overflow-y: auto !important; }
 
     /* Header */
     .acc-header {
@@ -588,46 +587,16 @@
   const isInIframe = window.self !== window.top;
   if (isInIframe) document.body.classList.add('acc-in-iframe');
 
-  function postHeight(h) {
-    // Try all known Wix/generic iframe resize message formats
-    window.parent.postMessage({ type: 'iframe-height', height: h }, '*');
-    window.parent.postMessage({ intent: 'iframe-height', height: h }, '*');
-    window.parent.postMessage(JSON.stringify({ eventType: 'height', data: h }), '*');
-    window.parent.postMessage(JSON.stringify({ height: h }), '*');
-  }
-
-  function wixExpand() {
-    if (!isInIframe) return;
-    const h = window.screen.height;
-    document.documentElement.style.height = h + 'px';
-    document.body.style.height = h + 'px';
-    document.body.classList.add('acc-expanded');
-    postHeight(h);
-  }
-
-  function wixCollapse() {
-    if (!isInIframe) return;
-    document.documentElement.style.height = '80px';
-    document.body.style.height = '80px';
-    document.body.classList.remove('acc-expanded');
-    postHeight(80);
-  }
-
   const openPanel = () => {
     S.open = true;
     panel.classList.add('acc-open');
     toggleBtn.setAttribute('aria-expanded', true);
-    wixExpand();
   };
   const closePanel = () => {
     S.open = false;
     panel.classList.remove('acc-open');
     toggleBtn.setAttribute('aria-expanded', false);
-    wixCollapse();
   };
-
-  // Initialise collapsed state
-  wixCollapse();
 
   toggleBtn.addEventListener('click', () => S.open ? closePanel() : openPanel());
   document.getElementById('acc-close').addEventListener('click', closePanel);
@@ -1071,4 +1040,3 @@
   });
 
 })();
-
